@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"hcsr04_stm32f103c8t6\startup_stm32f103xb.o"
+"hcsr04_stm32f103c8t6\lcd16x2_i2c.o"
+"hcsr04_stm32f103c8t6\main.o"
+"hcsr04_stm32f103c8t6\stm32f1xx_it.o"
+"hcsr04_stm32f103c8t6\stm32f1xx_hal_msp.o"
+"hcsr04_stm32f103c8t6\stm32f1xx_hal_gpio_ex.o"
+"hcsr04_stm32f103c8t6\stm32f1xx_hal_i2c.o"
+"hcsr04_stm32f103c8t6\stm32f1xx_hal.o"
+"hcsr04_stm32f103c8t6\stm32f1xx_hal_rcc.o"
+"hcsr04_stm32f103c8t6\stm32f1xx_hal_rcc_ex.o"
+"hcsr04_stm32f103c8t6\stm32f1xx_hal_gpio.o"
+"hcsr04_stm32f103c8t6\stm32f1xx_hal_dma.o"
+"hcsr04_stm32f103c8t6\stm32f1xx_hal_cortex.o"
+"hcsr04_stm32f103c8t6\stm32f1xx_hal_pwr.o"
+"hcsr04_stm32f103c8t6\stm32f1xx_hal_flash.o"
+"hcsr04_stm32f103c8t6\stm32f1xx_hal_flash_ex.o"
+"hcsr04_stm32f103c8t6\stm32f1xx_hal_exti.o"
+"hcsr04_stm32f103c8t6\stm32f1xx_hal_tim.o"
+"hcsr04_stm32f103c8t6\stm32f1xx_hal_tim_ex.o"
+"hcsr04_stm32f103c8t6\system_stm32f1xx.o"
+--strict --scatter "HCSR04_STM32F103C8T6\HCSR04_STM32F103C8T6.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "HCSR04_STM32F103C8T6.map" -o HCSR04_STM32F103C8T6\HCSR04_STM32F103C8T6.axf
